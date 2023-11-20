@@ -1,0 +1,18 @@
+.hw-title-logo {
+    background: url(../img/svg/logo.svg) no-repeat;
+}
+.hw-icon-setting {
+    background: url(../img/svg/setting.svg) no-repeat;
+}
+.hw-icon-help {
+    background: url(../img/svg/help.svg) no-repeat;
+}
+.hw-icon-star {
+    background: url(../img/svg/star.svg) no-repeat;
+}
+.hw-icon {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+}

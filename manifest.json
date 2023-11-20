@@ -3,7 +3,19 @@
   "description": "a plugin that helps organizing your webpages",
   "version": "1.0.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "img/icon/16x16.png",
+    "32": "img/icon/32x32.png",
+    "48": "img/icon/48x48.png",
+    "128": "img/icon/128x128.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_icon": {
+      "16": "img/icon/16x16.png",
+      "24": "img/icon/24x24.png",
+      "32": "img/icon/32x32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Hierarchical Web"
   }
 }

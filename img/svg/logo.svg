@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-1 {
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_2" data-name="圆角矩形 2" class="cls-1" d="M4,30H114a10,10,0,0,1,10,10v68a10,10,0,0,1-10,10H14A10,10,0,0,1,4,108V30ZM14,10H50A10,10,0,0,1,60,20V30H4V20A10,10,0,0,1,14,10Z"/>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-2" cx="64" cy="74" r="34"/>
+  <path id="椭圆_2" data-name="椭圆 2" class="cls-3" d="M64,40c9.941,0,18,15.222,18,34s-8.059,34-18,34S46,92.778,46,74,54.059,40,64,40Z"/>
+  <path id="形状_1" data-name="形状 1" class="cls-4" d="M28,76V72h72v4H28Z"/>
+  <path id="形状_2" data-name="形状 2" class="cls-4" d="M62,38h4v72H62V38Z"/>
+  <path id="形状_3" data-name="形状 3" class="cls-4" d="M34,59V55H94v4H34Z"/>
+  <path id="形状_3_拷贝" data-name="形状 3 拷贝" class="cls-4" d="M34,93V89H94v4H34Z"/>
+</svg>
