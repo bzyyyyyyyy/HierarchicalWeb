@@ -1,5 +1,8 @@
 .hw-title-logo {
-    background: url(../img/svg/logo.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+    background: url(../img/svg/logo.svg) no-repeat center;
+    background-size: contain;
 }
 .hw-icon-setting {
     background: url(../img/svg/setting.svg) no-repeat;
@@ -12,7 +15,7 @@
 }
 .hw-icon {
     display: flex;
-    height: 30px;
-    width: 30px;
+    height: 18px;
+    width: 18px;
     background-size: contain;
 }

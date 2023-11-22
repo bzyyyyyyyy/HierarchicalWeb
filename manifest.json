@@ -17,5 +17,9 @@
     },
     "default_popup": "popup.html",
     "default_title": "Hierarchical Web"
+  },
+  "permissions": [ "tabs", "storage" ],
+  "background": {
+    "service_worker": "service-worker.js"
   }
 }

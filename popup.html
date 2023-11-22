@@ -7,30 +7,55 @@
     <link rel="stylesheet" href="css/icon.min.css">
 
     <script src="js/jquery.min.js"></script>
+
     <script src="js/popup.js"></script>
 </head>
 <body class="container">
-    <div class="head-bar">
+    <div class="chunk head-bar">
         <div class="title-logo">
             <a href="https://space.bilibili.com/406251908?spm_id_from=333.1007.0.0" target="_blank">
-                <div class="hw-icon hw-title-logo">&nbsp;</div>
+                <div class="hw-title-logo"></div>
             </a>
         </div>
-
         <div class="top-icons">
-            <button class="clear-button" type="button" name="setting">
-                <span class="hw-icon hw-icon-star"></span>
+            <div>
+                <button class="clear-button icon-button" id="hw-star" type="button" name="web-sets">
+                    <abbr title="web sets">
+                        <span class="hw-icon hw-icon-star"></span>
+                    </abbr>
+                </button>
+                <div id="ws-options">
+                    <button class="clear-button ws-options-layout ws-save" type="button" name="ws-save">
+                        save web set
+                    </button>
+                    <button class="clear-button ws-options-layout ws-load" type="button" name="ws-load">
+                        load seb set
+                    </button>
+                </div>
+            </div>
+            <button class="clear-button icon-button" type="button" name="setting">
+                <abbr title="settings">
+                    <span class="hw-icon hw-icon-setting flex-left"></span>
+                </abbr>
             </button>
-            <button class="clear-button" type="button" name="setting">
-                <span class="hw-icon hw-icon-setting"></span>
-            </button>
-            <button class="clear-button" type="button" name="setting">
-                <span class="hw-icon hw-icon-help"></span>
+            <button class="clear-button icon-button" type="button" name="help">
+                <abbr title="help">
+                    <span class="hw-icon hw-icon-help"></span>
+                </abbr>
             </button>
         </div>
     </div>
-    <div class="">
-
+    <div class="chunk head-search">
+        <input
+            class="search-input"
+            id="hw-search"
+            type="text"
+            autofocus
+            autocomplete="off"
+            placeholder="Type the url or name to search"
+        />
+    </div>
+    <div class="chunk body-content">
     </div>
 </body>
 </html>

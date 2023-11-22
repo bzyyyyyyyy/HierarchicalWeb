@@ -1,49 +1,97 @@
 .container {
-    min-height: 540px;
-    overflow: auto;
-    /*text-overflow: ellipsis;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    height: 540px;
+    overflow: hidden;
     min-width: 360px;
     background-color: #F3F3F3;
-    /*transition: background-color 0.3s ease-in-out;*/
 }
 .head-bar {
-    /*!*font-family: "Lucida Grande", Tahoma, sans-serif;*!*/
-    /*overflow: hidden;*/
-    margin: 10px 10px;
-    height: 30px;
-    /*background-color: #ffffff;*/
-    display: flex;
+    height: 24px;
 }
 .title-logo {
-    /*align-content: flex-start;*/
-    /*display: inline-block;*/
-    height: 30px;
-    width: 30px;
+    padding-left: 3px;
     /*background: pink;*/
-    /*background-size: contain;*/
 }
 .top-icons {
     flex: 1;
-    /*flex-direction: row-reverse;*/
     justify-content: flex-end;
     display: flex;
     /*background: purple;*/
+}
+.icon-button {
+    padding-top: 3px;
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
 }
 .clear-button {
     display: flex;
     justify-content: center;
     /*align-items: flex-start;*/
-    padding-top: 5px;
-    margin-left: 5px;
-    height: 30px;
-    width: 30px;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     cursor: pointer;
     background: none;
-    transition: all 0.2s;
+    transition: all 0.2s ease-out;
 }
 .clear-button:hover {
     background-color: #ffffff;
-    box-shadow: inherit;
+    box-shadow: 0px 0px 5px -3px;
+}
+#ws-options {
+    position: relative;
+    margin-right: -92px;
+    padding-top: 5px;
+    right: 91px;
+    height: 80px;
+    width: 120px;
+    z-index: 1;
+    background-color: #F9F9F9;
+    border-radius: 6px;
+    outline: solid 1px #E7E7E7;
+    display: flex;
+    flex-direction: column;
+}
+.ws-options-layout {
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    /*font-family: "Lucida Grande", Tahoma, sans-serif;*/
+    padding-top: 8px;
+}
+.ws-save {
+    /*background-color: pink;*/
+}
+.ws-load {
+    /*background-color: purple;*/
+}
+.flex-left {
+    margin-left: 1px;
+}
+.head-search {
+    height: 40px;
+}
+.search-input {
+    flex: 1;
+    /*font-family: "Lucida Grande", Tahoma, sans-serif;*/
+    /*width: 89%;*/
+    padding-right: 11px;
+    padding-left: 11px;
+    outline-width: 0px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: solid 1px #E7E7E7;
+}
+.body-content {
+    height: 473px;
+    overflow: auto;
+    /*background-color: #ffffff;*/
+}
+.chunk {
+    margin: 5px 5px;
+    display: flex;
+    /*background-color: #ffffff;*/
 }
